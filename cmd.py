@@ -28,7 +28,7 @@ def execute_command(command: str) -> dict:
             capture_output=True,
             text=True,
             timeout=30,          # 超时时间，防止命令阻塞
-            encoding='gbk'       # Windows 中文系统常用编码（若输出乱码可改为 'utf-8'）
+            encoding='utf-8'       # Windows 中文系统常用编码（若输出乱码可改为 'utf-8'）
         )
         return {
             "stdout": result.stdout,
