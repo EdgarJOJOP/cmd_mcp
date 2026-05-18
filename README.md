@@ -3,7 +3,7 @@
 
 ## 1.安装 fastmcp
 
-`pip install fastmcp`
+`pip install fastmcp chardet`
 
 ## 2.保存脚本（例如 cmd_executor.py）并在 Windows 11 上运行
 
